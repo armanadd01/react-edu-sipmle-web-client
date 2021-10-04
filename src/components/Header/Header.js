@@ -28,23 +28,23 @@ const Header = () => {
                         <nav className="container-fluid">
                             <ul className="navbar-nav ">
                                 <li className="nav-item p-2">
-                                    <NavLink className="nav-link fs-4" to="/home">Home</NavLink>
+                                    <NavLink activeClassName="bg-primary text-light" className="nav-link fs-4" to="/home">Home</NavLink>
                                 </li>
                                 <li className="nav-item p-2">
-                                    <NavLink className="nav-link fs-4" to="/services">Services</NavLink>
+                                    <NavLink activeClassName="bg-primary text-light" className="nav-link fs-4" to="/services">Services</NavLink>
                                 </li>
                                 <li className="nav-item p-2">
-                                    <NavLink className="nav-link fs-4" to="/about">About</NavLink>
+                                    <NavLink activeClassName="bg-primary text-light" className="nav-link fs-4" to="/about">About</NavLink>
                                 </li>
                                 <li className="nav-item p-2">
-                                    <NavLink className="nav-link fs-4" to="/teachers">Teachers</NavLink>
+                                    <NavLink activeClassName="bg-primary text-light" className="nav-link fs-4" to="/teachers">Teachers</NavLink>
                                 </li>
                             </ul>
                         </nav>
                     </div>
                     <div className="search-menu col-md-4 col-sm-4 d-flex pe-4">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
                     </div>
                 </div>
                 

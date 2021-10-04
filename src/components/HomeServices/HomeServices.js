@@ -21,7 +21,7 @@ const HomeServices = (props) => {
                     <ListGroupItem>Price: {budget} TK</ListGroupItem>
                 </ListGroup>
                 <Card.Body>
-                    <Button variant="primary">Learn More</Button>
+                    <Button variant="outline-primary">Learn More</Button>
                 </Card.Body>
             </Card>
         </div>
