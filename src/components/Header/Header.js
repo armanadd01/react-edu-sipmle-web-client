@@ -1,20 +1,19 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './Header.css'
 
 const Header = () => {
     return (
         <div className="main-header container-fluid "> 
-            <div className="header-top">
-                <div className="row">
-                    <div className="phone bg-secondary col-md-3 border-end border-dark">
-                        <p>123456789</p>
-                    </div>
-                    <div className="email bg-secondary col-md-3 border-end border-dark">
-                        <p>armanadd04@gmail.com</p>
-                    </div>
-                    <div className=" bg-secondary col-md-6 border-end border-dark">
-                        
-                    </div>
+            <div className="row header-top">
+                <div className="phone col-md-3 border-end border-primary">
+                    <p className="text-center pt-3 fs-6 ">+880 1234 567890</p>
+                </div>
+                <div className="email col-md-3 border-end border-primary">
+                    <p className="text-center pt-3 fs-6 ">armanaedu@gmail.com</p>
+                </div>
+                <div className=" col-md-6">
+                    
                 </div>
             </div>
             <div className="header-bottom bg-light py-3">
