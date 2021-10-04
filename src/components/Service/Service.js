@@ -23,7 +23,7 @@ const Service = (props) => {
                     <ListGroupItem className=" service_details"><FontAwesomeIcon className="icon text-primary" icon={faMoneyBill}/> {budget} TK</ListGroupItem>
                 </ListGroup>
                 <Card.Body>
-                    <Button variant="primary">Learn More</Button>
+                    <Button variant="outline-primary">Learn More</Button>
                 </Card.Body>
             </Card>
         </div>
