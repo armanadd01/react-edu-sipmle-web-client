@@ -9,7 +9,11 @@ const Footer = () => {
                 <img className=" m-5 footer-img" src={logoImg} alt="" />
                 <div className="copy-rights">
                     <p className="text-bold text-light fs-5">Learners around the world are launching new careers, advancing in their fields, and enriching their lives.</p>
-                    <p className="text-light">&copy; 2021. All Rights reserved ArmanEnt EDU </p>
+                    <h3 className="text-light">Stay Updated</h3>
+                    <div className="input-group mb-3 mt-5 border-0">
+                        <input type="text" className="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                        <button className="btn btn-outline-primary input-group-text" id="basic-addon2">Subscribe Now</button>
+                    </div>
                 </div>
 
             </div>
@@ -21,7 +25,7 @@ const Footer = () => {
                     <p className="text-center pt-3 fs-6 "><b>Email:</b> armanaedu@gmail.com</p>
                 </div>
                 <div className=" col-md-6">
-                    
+                <p className="text-light">&copy; 2021. All Rights reserved ArmanEnt EDU </p>
                 </div>
             </div>
         </div>

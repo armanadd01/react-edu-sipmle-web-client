@@ -5,8 +5,8 @@ import logoImg from '../../images/logo.png';
 
 const Header = () => {
     return (
-        <div className="main-header container-fluid "> 
-            <div className="row header-top">
+        <div className="container-fluid border-bottom border-primary"> 
+            <div className="row header-top border-bottom border-primary">
                 <div className="phone col-md-3 col-12 border-end border-primary">
                     <p className="text-center pt-3 fs-6 ">+880 1234 567890</p>
                 </div>
@@ -14,10 +14,10 @@ const Header = () => {
                     <p className="text-center pt-3 fs-6 ">armanaedu@gmail.com</p>
                 </div>
                 <div className=" col-md-6">
-                    
+                    <p className="text-end pt-3 fs-6 ">Largest online IT learning Platform</p>
                 </div>
             </div>
-            <div className="header-bottom bg-light py-3">
+            <div className="header-bottom">
                 <div className="navbar navbar navbar-expand-lg navbar-light">
                     <div className="col-md-3 col-sm-3 navbar-brand">
                         <img className="w-25 h-25 ms-5" src={logoImg} alt="" />
