@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div className="main container-fluid">
             <div className="row">
-                <div className="banner col-md-12 ">
+                <div className="banner col-md-12 col-12">
                     <div className="overlay text-center">
                     <h1 className="text-center text-light fs-1">Let's Study Together</h1>
                     <button className="btn btn-primary mt-5 fw-bold fs-4 px-5">About Us</button>
@@ -34,10 +34,6 @@ const Home = () => {
                         }
                     </div>
                 </div>
-                
-            </div>
-            <div className="row ">
-
             </div>
         </div>
     );

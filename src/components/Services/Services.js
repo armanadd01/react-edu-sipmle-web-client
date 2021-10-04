@@ -12,18 +12,18 @@ const Services = () => {
     return (
         <div className="services">
             <div className="container">
-                    <div className="row service-section">
-                        <h1  className="py-5 my-5 border-bottom border-primary fs-3">Our Popular <span className="fs-2 fw-bold text-danger">Online Courses</span></h1>
-                        {
-                            services.map(service => <Service
-                                key={service.key}
-                                service={service}
-                            >
+                <div className="row service-section">
+                    <h1  className="py-5 my-5 border-bottom border-primary fs-3">Our Popular <span className="fs-2 fw-bold text-danger">Online Courses</span></h1>
+                    {
+                        services.map(service => <Service
+                            key={service.key}
+                            service={service}
+                        >
 
-                            </Service>)
-                        }
-                    </div>
+                        </Service>)
+                    }
                 </div>
+            </div>
         </div>
     );
 };

@@ -4,9 +4,9 @@ import { Button, Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 const HomeServices = (props) => {
     const {name, trainer, topic, img, enroll, budget} = props.service
     return (
-        <div className="col-md-4">
-            <Card style={{ width: 'auto' }}>
-                <Card.Img variant="top" className="" src={img} />
+        <div className="col-md-3 col-12 mt-5">
+            <Card  className="text-center  h-100">
+                <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>

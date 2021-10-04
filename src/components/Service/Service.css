@@ -1,0 +1,17 @@
+.images {
+    height: 10em;
+}
+.service_details {
+    font-size: .9em;
+    font-weight: 700;
+    border: none;
+    
+}
+.service-border {
+    border-right: 1px solid cyan;
+    border-left: 1px solid cyan;
+    padding: 1px 14px;
+}
+.icon {
+    font-size: .8em;
+}
