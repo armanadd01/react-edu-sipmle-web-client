@@ -1,43 +1,44 @@
-# DU Farewell Concert bands list
+# ArmanEnt Education Site
 
-This project deployed on [netlify: https://elated-benz-b34faa.netlify.app/](https://elated-benz-b34faa.netlify.app/).
+This project deployed on [netlify: https://hardcore-hermann-30946d.netlify.app/](https://hardcore-hermann-30946d.netlify.app/).
 
 ## 
 
 In the project src folder user can find a component folder, 
 Here some short description or details of those folders
 
+### `App.js`
+
+In `App.js` file you can see the Router of this website. I just simply rename the `BrowserRoter as Router` and I use Header Component before the `Switch` and footer after the `Switch` for show in all pages.I use `Navlink` instant of a tag for load the data without loading the site
+
 ### `Header`
 
 In Header Component, site details added. 
-user can fiend here Two main header div. One is `top-header` and `header-menu`
-`top-header` contain Header information like "The porupose of this project total Budget of the concert and a short text about project"
+user can fiend here Two Services header div. One is `top-header` and `header-bottom`
+`top-header` contain Header information like "The porupose of this project total Budget of the concert and a short text about project" and `header-bottom` contain site logo and navigation bar and search
 
 
-### `Main`
+### `Services`
 
-In Main component lots of thing added here. 
+In `Services` component lots of thing added here. 
 In this component all the  `JSON` data fetched here by using `useState` and `useEffect`
-A handler function added. This function can handle a button under the single-band section, which user can find on `Band` component.
-This Main component pass data to both `Band` and `Cart` component.
-On `return` of data I returned `Band` component data under the hood of band-container by using `.map` method and pass a unique key, pass full Array of Object and pass  handleAddToCart function. And also under the hood of cart-container I pass an Array for `Cart` component. 
+This Services component pass data to `Service`.
+On `return` of data I returned `Service` component data under the hood of Service-container by using `.map` method and pass a unique key. 
 
-### `Band`
+### `Teacers`
 
-This `Band` component is one of the main component of this projects here user shaw all the data. 
-And also in this component I added a button. Which get data from `Main` component. When user click on that button cart data will updated
+This `Teachers` component is one of the Services component of this projects here user shaw Teacher/trainer information. 
+This Component can .map an array and pass data to `Teacher` component. 
 
-### `Cart`
+### `About`
 
-**Note: When user clicked on `Add This Band` , Cart data will update !**
+**Note: In `About` Section you can see the about details and also can see the teacher component**
 
-This `Cart` component is on of the main interactive part of this project. When a user clicked on `Add This Band` button 
+This `About` component can show up the About data and Teacher data as well. 
 user can shaw 3 data updated
-:one: Total Band data 
-:two: Total amount
-:three: And at last a list of added band 
 
-for listing the band I use `.map` method. Because Cart data itself an Array. 
+
+for icon  I use `FontAwesome` . And for Css I use `React-Bootstrao` and I also added some custom css. 
 
 ## Thanks Giving
 
