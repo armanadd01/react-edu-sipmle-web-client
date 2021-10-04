@@ -7,6 +7,7 @@ import './Service.css'
 const Service = (props) => {
     const {name, trainer, topic, img, enroll, budget} = props.service
     return (
+        // Sercice Component
         <div className="col-md-4 col-12 mt-5">
             <Card  className="text-center  h-100">
                 <Card.Img variant="top" className="images" src={img} />

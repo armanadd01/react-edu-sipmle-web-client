@@ -5,6 +5,7 @@ import aboutImgTwo from '../../images/about-img02.webp';
 
 const About = () => {
     return (
+        // about section
         <div className="container">
             <div className="row justify-content-center align-items-startalign-items-start mt-5">
                 <div className="col-md-6 col-12">
@@ -24,6 +25,7 @@ const About = () => {
                     <img className="img-fluid" src={aboutImgTwo} alt="" />
                 </div>
             </div>
+            {/* Teacher Component */}
             <Teachers></Teachers>
         </div>
     );

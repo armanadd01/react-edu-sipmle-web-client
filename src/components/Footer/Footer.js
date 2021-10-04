@@ -4,6 +4,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
+        // footer top Section
         <div className="container-fluid mt-5 bg-dark text-center">
             <div className="footer-top p-5">
                 <img className=" m-5 footer-img" src={logoImg} alt="" />
@@ -17,6 +18,7 @@ const Footer = () => {
                 </div>
 
             </div>
+            {/* Footer Bottom Section */}
             <div className=" row  bg-light footer-bottom">
                 <div className="phone col-md-3 col-12 border-end border-primary">
                     <p className="text-center pt-3 fs-6 "> <b>Phone</b>+880 1234 567890</p>

@@ -19,9 +19,11 @@ const Header = () => {
             </div>
             <div className="header-bottom">
                 <div className="navbar navbar navbar-expand-lg navbar-light">
+                    {/* Site logo */}
                     <div className="col-md-3 col-sm-3 navbar-brand">
                         <img className="w-25 h-25 ms-5" src={logoImg} alt="" />
                     </div>
+                    {/* Navigation bar */}
                     <div className="main-menu col-md-5 col-sm-5">
                         <nav className="container-fluid">
                             <ul className="navbar-nav ">

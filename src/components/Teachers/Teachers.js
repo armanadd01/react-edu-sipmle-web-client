@@ -3,7 +3,7 @@ import Teacher from '../Teacher/Teacher';
 
 const Teachers = () => {
     const [services, setService] = useState([]);
-
+    //Load Teacher Data by useEffect
     useEffect(() => {
         fetch('./fakeDataDb.JSON')
         .then(res => res.json())

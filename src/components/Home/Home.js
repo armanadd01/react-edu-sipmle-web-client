@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import HomeServices from '../HomeServices/HomeServices';
 import "./Home.css"
 
 const Home = () => {
     const [services, setService] = useState([]);
-
+    // load fakedb data by useEffect
     useEffect(() => {
         fetch('./fakeDataDb.JSON')
         .then(res => res.json())
@@ -13,13 +14,20 @@ const Home = () => {
     return (
         <div className="main container-fluid">
             <div className="row">
+                {/* Banner Section */}
                 <div className="banner col-md-12 col-12">
                     <div className="overlay text-center">
                     <h1 className="text-center text-light fs-1">Let's Study Together</h1>
-                    <button className="btn btn-primary mt-5 fw-bold fs-4 px-5">About Us</button>
+                    <NavLink className="nav-link fs-4" to="/about">
+                        <button className="btn btn-primary mt-5 fw-bold fs-4 px-5">
+                            About
+                        </button>
+                    </NavLink>
+                    
                     </div>
                 </div>
             </div>
+            {/* Home Services Section */}
             <div className=" py-5 mt-5 text-center">
                 <div className="container">
                     <div className="row service-section">
