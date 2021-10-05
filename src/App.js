@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './components/Header/Header';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -11,7 +11,7 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="">
+    <div className="App">
       {/* Diclear Router */}
       <Router>
         <Header></Header>

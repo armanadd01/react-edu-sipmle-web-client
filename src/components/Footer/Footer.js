@@ -20,14 +20,14 @@ const Footer = () => {
             </div>
             {/* Footer Bottom Section */}
             <div className=" row  bg-light footer-bottom">
-                <div className="phone col-md-3 col-12 border-end border-primary">
+                <div className="phone col-md-4 col-12 border-end border-primary">
                     <p className="text-center pt-3 fs-6 "> <b>Phone</b>+880 1234 567890</p>
                 </div>
-                <div className="email col-md-3 col-12 border-end border-primary">
+                <div className="email col-md-4 col-12 border-end border-primary">
                     <p className="text-center pt-3 fs-6 "><b>Email:</b> armanaedu@gmail.com</p>
                 </div>
-                <div className=" col-md-6">
-                        <p className="text-dark text-end pt-3 fs-6">&copy; 2021. All Rights reserved ArmanEnt EDU. Design and Developed Bt Arman Habib </p>
+                <div className=" col-md-4 col-12">
+                        <p className="text-dark text-center pt-3 fs-6">&copy; 2021. All Rights reserved ArmanEnt EDU. Design and Developed Bt Arman Habib </p>
                 </div>
             </div>
         </div>
